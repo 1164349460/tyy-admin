@@ -1,0 +1,94 @@
+/*--------------------------以下部分为默认样式-----------------------------*/
+
+body,div,span,header,footer,nav,section,aside,article,ul,dl,dt,dd,li,a,p,h1,h2,h3,h4,h5,h6,i,b,textarea,button,input,select,figure,figcaption {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-style: normal;
+    text-decoration: none;
+    border: none;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-font-smoothing: antialiased;
+    box-sizing: border-box;
+  }
+  
+  body:focus,div:focus,span:focus,header:focus,footer:focus,nav:focus,section:focus,aside:focus,article:focus,ul:focus,dl:focus,dt:focus,dd:focus,li:focus,a:focus,p:focus,h1:focus,h2:focus,h3:focus,h4:focus,
+  h5:focus,h6:focus,i:focus,b:focus,textarea:focus,button:focus,input:focus,select:focus,figure:focus,
+  figcaption:focus {
+    outline: none;
+  }
+  ::-webkit-scrollbar {
+    /* 滚动条整体部分 */
+    width: 4px;
+    height: 20px;
+  }
+  ::-webkit-scrollbar-button {
+    /* 滚动条两端的按钮 */
+    display: none;
+  }
+  ::-webkit-scrollbar:horizontal {
+    height: 10px;
+    margin-bottom: 2px;
+  }
+  ::-webkit-scrollbar-track {
+    /* 外层轨道 */
+    display: none;
+  }
+  ::-webkit-scrollbar-track-piece {
+    /*内层轨道，滚动条中间部分 */
+    background-color: transparent;
+    border-radius: 10px;
+  }
+  ::-webkit-scrollbar-thumb {
+    /* 滑块 */
+    width: 10px;
+    border-radius: 5px;
+    background: transparent;
+  }
+  ::-webkit-scrollbar-corner {
+    /* 边角 */
+    width: 10px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    /* 鼠标移入滑块 */
+    background: rgba(144, 147, 153, 0.3);
+  }
+  /*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+  /*定义滚动条轨道 内阴影+圆角*/
+  ::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 1px rgba(0, 0, 0, 0);
+    border-radius: 10px;
+    background-color: #ecebeb;
+  }
+  /*定义滑块 内阴影+圆角*/
+  ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #ccc;
+  }
+  input[type="button"],
+  input[type="submit"],
+  input[type="search"],
+  input[type="reset"] {
+    -webkit-appearance: none;
+  }
+  textarea {
+    -webkit-appearance: none;
+  }
+  html,body {
+    height: 100%;
+    width: 100%;
+  }
+  .fillcontain {
+    height: 100%;
+    width: 100%;
+  }
+
+ /* 谷歌： */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+   -webkit-appearance: none !important;
+   margin: 0;
+}
+/* 火狐： */
+input[type="number"]{-moz-appearance:textfield;}

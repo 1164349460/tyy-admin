@@ -1,0 +1,135 @@
+/*-------------------------------------------- 以下部分为常用样式----------------------------------- */
+
+/* 清除浮动 */
+
+.clear:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.clear {
+  zoom: 1;
+}
+
+/* 背景图平铺 */
+
+.back_img {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+/*块居中*/
+
+.margin {
+  margin: 0 auto;
+}
+
+/* 浮动 */
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+/* 显示 */
+
+.hide {
+  display: none;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+/* 隐藏 */
+
+.show {
+  display: block;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+/* 超出部分省略 */
+
+.ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+/* 通用页面容器 */
+
+.pageContainer {
+  background-color: #fff;
+  padding: 20px;
+}
+
+/* 表格元素居中 */
+
+.el-table .cell {
+  line-height: 24px;
+  text-align: center;
+}
+
+/* 表格底部 */
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* 表单元素--------修改默认宽度为表单项宽度的100% */
+
+.el-select, .el-textarea, .el-cascader, .el-date-editor.el-input, .el-date-editor.el-input__inner {
+  width: 100%;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+/* 垂直表单 */
+
+.verticalForm {
+  width: 350px;
+}
+
+.icon_add {
+  padding: 4px;
+  margin-left: 10px;
+}
+
+.el-tag+.el-tag {
+  margin-left: 10px;
+}
+
+.form .el-input__inner {
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid #DCDFE6;
+}
+
+.form .el-input__inner {
+  width: 220px;
+}
+
+.cursor-point {
+  cursor: pointer;
+}
+
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
